@@ -1,0 +1,26 @@
+"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Scroll Image Gallery</title>
+    <link rel="stylesheet" href="g.css">
+</head>
+<body>
+    <div class="controls">
+        <label for="imageCount">Images per row:</label>
+        <input type="range" id="imageCountSlider" min="3" max="6" value="3">
+        <select id="imageCount">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </div>
+    <div id="gallery" class="gallery"></div>
+    <div class="spinner" id="spinner"></div>
+    <button id="modeToggle" class="mode-toggle">🌙</button>
+    <script src="g.js"></script>
+</body>
+</html>
+"
